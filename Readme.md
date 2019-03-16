@@ -1,3 +1,5 @@
+fork from kostaskougios/cloning, adding compare module and fix the clone engine for ignore hibernate lazy and unsupported operation exception
+
 ## Summary ##
 The cloning library is a small, open source (Apache licensed) Java library which deep-clones objects. The objects don't have to implement the Cloneable interface. Effectively, this library can clone ANY Java object. It can be used i.e. in cache implementations if you don't want the cached object to be modified or whenever you want to create a deep copy of objects.
 
